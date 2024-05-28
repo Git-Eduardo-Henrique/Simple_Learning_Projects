@@ -1,0 +1,9 @@
+{% extends "users/base.html" %}
+{% block conteudo %}
+<form action="{% url 'user_list' %}" method="post">
+    {% csrf_token %}
+    <p class="inputs">Nome: <input type="text" name="nome"></p>
+    <p class="inputs">Idade: <input type="number" name="idade"></p>
+    <button>Cadastrar</button>
+</form>
+{% endblock %}
