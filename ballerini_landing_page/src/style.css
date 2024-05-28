@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {  /* reset de configurações*/
+    margin: 0; /*espaçamento*/
+    padding: 0; /*distancia entre o conteudo e as bordas*/
+    box-sizing: border-box;
+    text-decoration: none; /*retira as decorações do texto*/
+}
+
+body {
+    font-size: 100%; /*tamanho da fonte*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); /*fundo do site com gradient*/
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row; /*deixas as opções em formato de linha */
+    align-items: center; /*alinha o menu com a logo no centro*/
+    justify-content: space-around; /*deixa um espaçamento entre os itens do cabeçalho*/
+    padding: 20px; /*deixa uma distancia entre o conteudo e as bordas*/
+}
+
+.logo_img {
+    height: 72px; /*almenta o tamanho da imagem*/
+}
+
+.menu_nave {
+    display: flex;
+    gap: 35px;
+}
+
+.item_menu {
+    font-family: 'Sarala', sans-serif; /*adiciona a fonte no css*/
+    color: #FFF2E7;
+    font-weight: 400; /*dita o tamanho da fonte*/
+    font-size: 18px; /*tamanho da fonte*/
+}
+
+.principal {
+    margin-bottom: 48px; /*almenta a distancia entre o conteudo e a borda*/
+    border-top: 0.4px solid #FFF2E7; /*cria a borda de cima (menu principal), solid = borda solida*/
+}
+
+.principal_conteudo {
+    display: flex;
+    flex-direction: row; /*deixa conteudo organizado como linha*/
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+
+
+.conteudo_escrito {
+    display: flex; /*deixa os itens alinhados*/
+    flex-direction: column; /*deixa o flex organisado em coluna*/
+    gap: 32px;
+}
+
+.titulo_principal {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.subtitulo {
+    font-size: 'Sarala', sans-serif;
+    font-family: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.adicionar {
+    background-color: #ECD6C4; /*cor do fundo do botão*/;
+    width: 185px;
+    height: 67px;
+    border: none; /*tira as bordas*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*adiciona sombra no botão*/
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.adicionar:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.ballebot_img {
+    height: 430px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px; /*distancia entre os conteudos*/
+    margin-top: 48px; /*distancia entre a margem de cima*/
+}
+
+.titulo_h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2Ef;
+    margin-bottom: 16px;
+}
+
+.paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.ballerini_text_img {
+    height: 48px;
+    display: block; /*tela em bloco*/
+    margin: 0 auto;
+}
